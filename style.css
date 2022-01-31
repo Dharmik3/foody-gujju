@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap'); */
+body{
+    font-family: 'Homemade Apple';
+}
+.landing{
+    background-image:linear-gradient(to bottom, rgba(41, 42, 45, 0.236), rgba(24, 10, 21, 0.236)),
+    url('/landing.jpg');
+    background-position: center;
+    height: 800px;
+}
