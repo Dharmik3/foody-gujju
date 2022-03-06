@@ -2,15 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 /* @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap'); */
-body{
+header{
     font-family: 'Homemade Apple';
 }
+
 .landing{
     background-image:linear-gradient(to bottom, rgba(41, 42, 45, 0), rgba(0, 0, 0, 0)),
     url('/landing.jpg');
     background-position: center;
     height: 800px;
     position: relative;
+
 }
 
 .brush-img{
